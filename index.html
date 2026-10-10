@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOR-X — Автомобілі</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLY03GZRV6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZLY03GZRV6');
+    </script>
+</head>
+<body>
+
+    <!-- Шапка сайту -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://api.logikaschool.com.ua/media/library/7cae4d15_logo.png" alt="MOTOR-X Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Автомобілі</a>
+                <a href="parts.html" class="nav-link">Автозапчастини та мастила</a>
+                <a href="contacts.html" class="nav-link">Контакти</a>
+            </nav>
+            <div class="header-actions">
+                <a href="cart.html" class="cart-btn" id="cartToggleBtn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </a>
+                <div class="user-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Головний банер -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Все для вашого автомобіля</h1>
+                <p>Запчастини, мастила та багато іншого для вашого авто. Якість, перевірена часом.</p>
+                <a href="parts.html" class="btn-primary">Перейти до автозапчастин та мастила</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секція: Автомобілі -->
+    <section class="section" id="cars">
+        <div class="container">
+            <div class="section-title">
+                <h2>Автомобілі</h2>
+            </div>
+            <div class="products-grid">
+                <!-- Товар 1 -->
+                <div class="product-card" data-id="car-1" data-name="Tesla Roadster" data-price="12000000" data-img="https://api.logikaschool.com.ua/media/library/e50c513c_tachka1.png">
+                    <div class="product-img">
+                        <img src="https://api.logikaschool.com.ua/media/library/e50c513c_tachka1.png" alt="Tesla Roadster">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tesla Roadster</h3>
+                        <p class="product-desc">Tesla Roadster (другого покоління) має на меті забезпечити розгін від 0 до 60 миль/год за 1,9 секунди, максимальну швидкість понад 250 миль/год і запас ходу 620 миль завдяки акумулятору ємністю 200 кВт·год.</p>
+                        <div class="product-price">12 000 000 грн</div>
+                        <button class="btn-buy buy-btn">Купити</button>
+                    </div>
+                </div>
+
+                <!-- Товар 2 -->
+                <div class="product-card" data-id="car-2" data-name="Mercedes-Benz E300" data-price="3812574" data-img="https://api.logikaschool.com.ua/media/library/f465bb8b_tachka2.png">
+                    <div class="product-img">
+                        <img src="https://api.logikaschool.com.ua/media/library/f465bb8b_tachka2.png" alt="Mercedes-Benz E300">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mercedes-Benz E300</h3>
+                        <p class="product-desc">Mercedes-Benz E-Class E 300 (W214) оснащено 2,0-літровим 4-циліндровим турбодвигуном (м'який гібрид) потужністю 258 кінських сил.</p>
+                        <div class="product-price">3 812 574 грн</div>
+                        <button class="btn-buy buy-btn">Купити</button>
+                    </div>
+                </div>
+
+                <!-- Товар 3 -->
+                <div class="product-card" data-id="car-3" data-name="Volvo XC90" data-price="2756530" data-img="https://api.logikaschool.com.ua/media/library/93b59f4c_tachka3.png">
+                    <div class="product-img">
+                        <img src="https://api.logikaschool.com.ua/media/library/93b59f4c_tachka3.png" alt="Volvo XC90">
+                    </div>
+                    <div class="product-info">
+                        <h3>Volvo XC90</h3>
+                        <p class="product-desc">Volvo XC90 оснащується помірними та гібридними виконанням та місткістю до 7 пасажирів. Найкращий вибір для поціновувачів безпеки.</p>
+                        <div class="product-price">2 756 530 грн</div>
+                        <button class="btn-buy buy-btn">Купити</button>
+                    </div>
+                </div>
+
+                <!-- Товар 4 -->
+                <div class="product-card" data-id="car-4" data-name="McLaren P1" data-price="111550000" data-img="https://api.logikaschool.com.ua/media/library/6840a7e8_tachka4.png">
+                    <div class="product-img">
+                        <img src="https://api.logikaschool.com.ua/media/library/6840a7e8_tachka4.png" alt="McLaren P1">
+                    </div>
+                    <div class="product-info">
+                        <h3>McLaren P1</h3>
+                        <p class="product-desc">Гібридний гіперкар McLaren P1 випускався британським виробником з 2013 по 2015 рік як ідейний спадкоємець легендарного McLaren F1.</p>
+                        <div class="product-price">111 550 000 грн</div>
+                        <button class="btn-buy buy-btn">Купити</button>
+                    </div>
+                </div>
+
+                <!-- Товар 5 -->
+                <div class="product-card" data-id="car-5" data-name="Lamborghini Urus" data-price="20800000" data-img="https://api.logikaschool.com.ua/media/library/44cef367_tachka5.png">
+                    <div class="product-img">
+                        <img src="https://api.logikaschool.com.ua/media/library/44cef367_tachka5.png" alt="Lamborghini Urus">
+                    </div>
+                    <div class="product-info">
+                        <h3>Lamborghini Urus</h3>
+                        <p class="product-desc">Lamborghini Urus 2024 року випуску (зокрема версій S, Performante та гібриду SE) визначають його як один із найпотужніших та найшвидших преміальних кросоверів у світі.</p>
+                        <div class="product-price">20 800 000 грн</div>
+                        <button class="btn-buy buy-btn">Купити</button>
+                    </div>
+                </div>
+
+                <!-- Товар 6 -->
+                <div class="product-card" data-id="car-6" data-name="Bugatti Veyron" data-price="105000000" data-img="https://api.logikaschool.com.ua/media/library/359909e3_tachka6.png">
+                    <div class="product-img">
+                        <img src="https://api.logikaschool.com.ua/media/library/359909e3_tachka6.png" alt="Bugatti Veyron">
+                    </div>
+                    <div class="product-info">
+                        <h3>Bugatti Veyron</h3>
+                        <p class="product-desc">Виробництво: загалом випущено 450 одиниць (300 купе та 150 родстерів). Двигун: 8.0-літровий W16 з чотирма турбінами, потужністю від 1001 до 1200 к.с. Розгін (0–100 км/год): 2,5 секунди.</p>
+                        <div class="product-price">105 000 000 грн</div>
+                        <button class="btn-buy buy-btn">Купити</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Спливаюче сповіщення про купівлю -->
+    <div class="notification" id="notification">
+        <i class="fa-solid fa-circle-check"></i>
+        <div class="notification-text">
+            <span class="notif-title">Товар куплено!</span>
+            <span class="notif-desc" id="notifDesc">Ваш товар буде № 48291</span>
+        </div>
+    </div>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MOTOR-X</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOR-X — Контакти</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLY03GZRV6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZLY03GZRV6');
+    </script>
+</head>
+<body>
+
+    <!-- Шапка сайту -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://api.logikaschool.com.ua/media/library/7cae4d15_logo.png" alt="MOTOR-X Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Автомобілі</a>
+                <a href="parts.html" class="nav-link">Автозапчастини та мастила</a>
+                <a href="contacts.html" class="nav-link active">Контакти</a>
+            </nav>
+            <div class="header-actions">
+                <a href="cart.html" class="cart-btn" id="cartToggleBtn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </a>
+                <div class="user-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Секція: Контакти -->
+    <section class="section contacts-section" id="contacts">
+        <div class="container">
+            <div class="section-title">
+                <h2>Контакти</h2>
+            </div>
+            <div class="contacts-grid">
+                <div class="contacts-info">
+                    <p><i class="fa-solid fa-location-dot"></i> <strong>Адреса магазину:</strong> м. Київ, вул. Автомобільна, 15</p>
+                    <p><i class="fa-solid fa-phone"></i> <strong>Телефон:</strong> +38 (099) 123-45-67, +38 (063) 765-43-21</p>
+                    <p><i class="fa-solid fa-envelope"></i> <strong>Електронна пошта:</strong> info@motor-x.ua</p>
+                    <p><i class="fa-solid fa-clock"></i> <strong>Час роботи:</strong> Пн–Пт: 9:00–19:00, Сб–Нд: 10:00–17:00</p>
+                    <iframe
+                    src="https://maps.google.com/maps?q=50.4501,30.5234&output=embed"
+                    width="250"
+                    height="200"
+                    style="border:0; max-width:100%;"
+                    allowfullscreen
+                    loading="lazy">
+                    </iframe>
+                </div>
+                <div class="contacts-form">
+                    <h3>Напишіть нам</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Ваше ім'я" required>
+                        <input type="tel" placeholder="Ваш телефон" required>
+                        <textarea placeholder="Повідомлення" rows="4" required></textarea>
+                        <button type="submit" class="btn-primary">Відправити</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MOTOR-X</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
